@@ -1,0 +1,59 @@
+<resources>
+    <string name="appname">Nhóm_2_Quanlysuachuamaytinh</string>
+    <string name="thongtin">Tạo Phiếu Thu</string>
+    <string name="hoTen">Nhập Họ Tên</string>
+    <string name="ma">Nhập Mã Sinh Viên</string>
+    <string name="diachi">Nhập Địa Chỉ</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="taophieu">Tạo Phiếu</string>
+    <string name="suaphieu">Sửa Phiếu</string>
+    <string name="xoatatcaphieu">Xóa Tất Cả Phiếu</string>
+    <string name="ds">Danh Sách Sinh Viên</string>
+    <string name="ngaytaophieu">Ngày Tạo Phiếu</string>
+    <string name="nhapngaycuasophieu">vui lòng nhập ngày</string>
+    <string name="maphieu">Mã Phiếu Thu</string>
+    <string name="nhapphieuthu">vui lòng nhập mã Phiếu thu</string>
+    <string name="makhachhang">Mã Khách Hàng</string>
+    <string name="nhapmakhachhang">Vui lòng nhập mã khách hàng</string>
+    <string name="loaiphieu">Loại Phiếu</string>
+    <string name="sotien">Số Tiền</string>
+    <string name="nhapsotien">Vui lòng nhập số tiền</string>
+    <string name="luu">Lưu</string>
+    <string name="thoat">Thoát</string>
+    <string name="thongtinkhachhang">Thông tin khách hàng</string>
+    <string name="nhaptenkhachhang">Tên Khách Hàng</string>
+    <string name="chuyendenphieuthu">Lưu và chuyển đến phiếu thu</string>
+    <string name="manhinhdichvu">Màn Hình Dịch Vụ</string>
+    <string name="madichvu">Mã Dịch Vụ</string>
+    <string name="tendichvu">Tên Dịch Vụ</string>
+    <string name="dongia">Đơn Gía</string>
+    <string name="donvitinh">Đơn Vị Tính</string>
+    <string name="xoadichvu">Xóa Dịch Vụ</string>
+    <string name="suadichvu">Sửa Dịch Vụ</string>
+    <string name="nhapphieu"> Mã Phiếu Thu</string>
+    <string name="ngaylapphieu"> Ngày Lập Phiếu Thu</string>
+    <string name="makhachhang1">Mã Khách Hàng</string>
+    <string name="nhapmakhachhang1">Nhập Mã Khách Hàng</string>
+    <string name="chuyenmanhinhphatsinh">Lưu và chuyển đến màn hình phát sinh</string>
+    <string name="chuyenmanhinhdichvu">Lưu và chuyển đến màn hình dịch vụ</string>
+    <string name="phatsinhchitiet">Màn hình phát sinh chi tiết</string>
+    <string name="chuyenmanthongtinkhachhang">Lưu và chuyển đến màn hình thông tin khách hàng</string>
+    <string name="nhom_quan_ly_sua_chua_may_tinh">
+        Nhóm 2 đề bài quản lý máy tính
+                xin chào
+    </string>
+    <array name="don_vi_tinh_arrays">
+        <item>Cái</item>
+        <item>Hộp</item>
+        <item>Túi</item>
+    </array>
+    <array name="phieu_thu_arrays">
+        <item>Trả Trước</item>
+        <item>Trả Sau</item>
+        <item>Chuyển Khoản</item>
+    </array>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="appname">Quanlysuachuamaytinh</string>
+    <string name="thongtin">Tạo Phiếu Thu</string>
+    <string name="hoTen">Nhập Họ Tên</string>
+    <string name="ma">Nhập Mã Sinh Viên</string>
+    <string name="diachi">Nhập Địa Chỉ</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="taophieu">Tạo Phiếu</string>
+    <string name="suaphieu">Sửa Phiếu</string>
+    <string name="xoatatcaphieu">Xóa Tất Cả Phiếu</string>
+    <string name="ds">Danh Sách Sinh Viên</string>
+    <string name="ngaytaophieu">Ngày Tạo Phiếu</string>
+    <string name="nhapngaycuasophieu">vui lòng nhập ngày</string>
+    <string name="maphieu">Mã Phiếu Thu</string>
+    <string name="nhapphieuthu">vui lòng nhập mã Phiếu thu</string>
+    <string name="makhachhang">Mã Khách Hàng</string>
+    <string name="nhapmakhachhang">Vui lòng nhập mã khách hàng</string>
+    <string name="loaiphieu">Loại Phiếu</string>
+    <string name="sotien">Số Tiền</string>
+    <string name="nhapsotien">Vui lòng nhập số tiền</string>
+    <string name="luu">Lưu</string>
+    <string name="thoat">Thoát</string>
+    <array name="phieu_thu_arrays">
+        <item>Trả Trước</item>
+        <item>Trả Sau</item>
+        <item>Chuyển Khoản</item>
+    </array>
+    
+
+</resources>

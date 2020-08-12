@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhieuThuMainActivity">
+
+    <!--    <TextView-->
+    <!--        style="@style/appname"-->
+    <!--        android:text="@string/appname" />-->
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtinkhachhang" />
+    <LinearLayout
+        style="@style/formngaytaophieu">
+        <TextView
+            android:id="@+id/tvtenkhachhang"
+            style="@style/edmaphieu"
+            android:text="@string/nhaptenkhachhang"
+            android:textSize="30dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/formngaytaophieu">
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edtenkhachhang1"
+            style="@style/edmaphieu"
+            android:hint="@string/nhapphieuthu"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:id="@+id/btnTao"
+            style="@style/btn"
+            android:text="@string/taophieu"
+            android:background="@drawable/custom_button"
+            />
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:text="@string/suaphieu"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:id="@+id/btnXoatatcaphieu"
+            style="@style/btn"
+            android:text="@string/xoatatcaphieu"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoat" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/timkiemthongtin"
+            android:id="@+id/nutsearch"
+            />
+
+        <ListView
+            android:id="@+id/lvphieuthu"
+            style="@style/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       >
+        <Button
+            android:id="@+id/btnchuyendenphieuthu"
+            style="@style/btn"
+            android:background="@drawable/custom_button"
+            android:text="@string/chuyendenphieuthu"
+            android:layout_width="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>

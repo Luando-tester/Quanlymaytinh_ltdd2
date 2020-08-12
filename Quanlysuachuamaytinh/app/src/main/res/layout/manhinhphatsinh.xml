@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhieuThuMainActivity">
+
+    <!--    <TextView-->
+    <!--        style="@style/appname"-->
+    <!--        android:text="@string/appname" />-->
+    <TextView
+        style="@style/tieude"
+        android:text="@string/phatsinhchitiet" />
+
+    <LinearLayout
+        style="@style/formngaytaophieu">
+
+        <TextView
+            android:layout_weight="1"
+            style="@style/tvmaphieu"
+            android:text="@string/nhapphieu"
+            android:id="@+id/tvnhapphieu"/>
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edmaphieu"
+            style="@style/edmaphieu"
+            android:hint="@string/nhapphieuthu"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/formngaytaophieu">
+
+        <TextView
+            android:layout_weight="1"
+            style="@style/tvmakhachang"
+            android:text="@string/ngaylapphieu"
+            android:id="@+id/tvmakhachhang"/>
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edmakhachhang"
+            style="@style/edmakhachhang"
+            android:hint="@string/ngaylapphieu"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/formngaytaophieu">
+
+        <TextView
+            android:layout_weight="1"
+            style="@style/ngaytaophieu"
+            android:text="@string/makhachhang1"
+            android:id="@+id/tvtaophieu"/>
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edngaytaophieu"
+            style="@style/thoigiantaophieu"
+            android:hint="@string/nhapmakhachhang1"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:id="@+id/btnTao"
+            style="@style/btn"
+            android:text="@string/taophieu"
+            android:background="@drawable/custom_button"
+            />
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:text="@string/suaphieu"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:id="@+id/btnXoatatcaphieu"
+            style="@style/btn"
+            android:text="@string/xoatatcaphieu"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout style="@style/chuyenmanhinhphatsinh">
+        <Button
+            android:id="@+id/btnchuyenmanhinhphatsinh1"
+            style="@style/btnchuyenmanhinh"
+            android:text="@string/chuyenmanthongtinkhachhang"
+            android:background="@drawable/custom_button"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoat" />
+
+    </LinearLayout>
+    <SearchView
+        style="@style/timkiemthongtin"
+        android:id="@+id/nutsearch"
+        />
+    <ListView style="@style/lv"
+        android:id="@+id/lvphieuthu"></ListView>
+</LinearLayout>

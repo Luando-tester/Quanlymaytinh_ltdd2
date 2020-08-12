@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        style="@style/appname"-->
+<!--        android:text="@string/appname" />-->
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtin"
+        android:textColor="#E91E63" />
+
+    <SearchView
+        style="@style/timkiemthongtin"
+        android:id="@+id/nutsearch"
+        />
+    <LinearLayout
+        style="@style/formngaytaophieu">
+
+        <TextView
+            android:id="@+id/tvmaphieu"
+            style="@style/tvmaphieu"
+            android:layout_width="176dp"
+            android:layout_weight="1"
+            android:text="@string/maphieu" />
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edmaphieu"
+            style="@style/edmaphieu"
+            android:hint="@string/nhapphieuthu"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/formngaytaophieu">
+
+        <TextView
+            android:id="@+id/tvmakhachhang"
+            style="@style/tvmakhachang"
+            android:layout_width="186dp"
+            android:layout_weight="1"
+            android:text="@string/makhachhang" />
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/edmakhachhang"
+            style="@style/edmakhachhang"
+            android:hint="@string/nhapmakhachhang"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+       style="@style/formngaytaophieu">
+
+    <TextView
+        android:layout_weight="1"
+        style="@style/ngaytaophieu"
+        android:text="@string/ngaytaophieu"
+        android:id="@+id/tvtaophieu"/>
+
+    <EditText
+        android:layout_weight="2"
+        android:id="@+id/edngaytaophieu"
+        style="@style/thoigiantaophieu"
+        android:hint="@string/nhapngaycuasophieu"
+       />
+    </LinearLayout>
+
+    <LinearLayout style="@style/formsotien">
+
+        <TextView
+            android:id="@+id/tvsdtien"
+            style="@style/sotien"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:text="@string/sotien" />
+
+        <EditText
+            android:id="@+id/edsotien"
+            style="@style/nhapsotien"
+            android:layout_weight="2"
+            android:hint="@string/nhapsotien"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formloaiphieu">
+
+        <TextView
+            android:id="@+id/tvloaiphieu"
+            style="@style/loaiphieu"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/loaiphieu" />
+        <Spinner
+            android:id="@+id/spnloaiphieu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:entries="@array/phieu_thu_arrays"
+            style="@style/comboloaiphieu">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:id="@+id/btnTao"
+            style="@style/btn"
+            android:text="@string/taophieu"
+            android:background="@drawable/custom_button"
+            />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:text="@string/suaphieu"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:id="@+id/btnXoatatcaphieu"
+            style="@style/btn"
+            android:text="@string/xoatatcaphieu"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoat" />
+
+    </LinearLayout>
+    <ListView style="@style/lv"
+        android:id="@+id/lvphieuthu"></ListView>
+</LinearLayout>

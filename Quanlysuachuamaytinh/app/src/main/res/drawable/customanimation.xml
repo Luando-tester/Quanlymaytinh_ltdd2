@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/running_man_01" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_02" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_03" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_04" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_05" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_06" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_07" android:duration="100"/>
+        <item android:drawable="@drawable/running_man_08" android:duration="100"/>
+    </animation-list>
+
