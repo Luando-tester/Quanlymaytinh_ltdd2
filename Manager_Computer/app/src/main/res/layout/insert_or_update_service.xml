@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <TextView
+        style="@style/label"
+        android:text="Tên dịch vụ"/>
+    <EditText
+        style="@style/input"
+        android:layout_marginTop="5dp"
+        android:id="@+id/serviceName"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/serviceChooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn hình"/>
+
+    <ImageView
+        android:id="@+id/serviceImage"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/label"
+        android:text="Đơn vị tính"/>
+    <Spinner
+        style="@style/select"
+        android:layout_marginTop="5dp"
+        android:id="@+id/serviceUnit"
+        android:spinnerMode="dropdown"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/label"
+        android:text="Đơn giá"/>
+    <EditText
+        style="@style/input"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:id="@+id/servicePrice"/>
+    <Button
+        android:id="@+id/saveService"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textSize="16dp"
+        android:text="Lưu"/>
+</LinearLayout>

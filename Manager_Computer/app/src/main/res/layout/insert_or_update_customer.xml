@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <TextView
+        style="@style/label"
+        android:text="Tên khách hàng"/>
+    <EditText
+        style="@style/input"
+        android:layout_marginTop="5dp"
+        android:id="@+id/customerName"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/label"
+        android:text="Ngày sinh"/>
+    <DatePicker
+        android:id="@+id/customerDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/label"
+        android:text="Địa chỉ"/>
+    <EditText
+        style="@style/input"
+        android:layout_marginTop="5dp"
+        android:id="@+id/customerAddress"/>
+    <Button
+        android:id="@+id/saveCustomer"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textSize="16dp"
+        android:text="Lưu"/>
+</LinearLayout>

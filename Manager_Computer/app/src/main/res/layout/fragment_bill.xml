@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/label"
+            android:text="Tìm kiếm"/>
+        <EditText
+            style="@style/input"
+            android:layout_marginTop="5dp"
+            android:hint="Tìm kiếm theo mã phiếu..."
+            android:id="@+id/searchBillText"/>
+        <Button
+            android:layout_marginTop="10dp"
+            style="@style/button"
+            android:background="@color/colorAccent"
+            android:text="Tìm kiếm"
+            android:id="@+id/searchBill"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/listBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:background="@color/colorAccent"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:id="@+id/addBill"
+        android:text="Tạo" />
+</FrameLayout>

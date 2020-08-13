@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <TextView
+        style="@style/label"
+        android:text="Khách hàng"/>
+    <EditText
+        style="@style/input"
+        android:id="@+id/billCustomerName"
+        android:visibility="gone"
+        android:enabled="false"
+        />
+    <Spinner
+        style="@style/select"
+        android:layout_marginTop="5dp"
+        android:id="@+id/billCustomer"
+        android:spinnerMode="dropdown"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/label"
+        android:text="Chi tiết phát sinh"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/messageLabel"
+        android:text="(Chi tiết phát sinh này khi thêm, sửa, xóa đều đã được lưu vào phiếu phát sinh, không cần bấm nút Lưu ở bên dưới)"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/listBillDetail"
+        android:minHeight="200sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Tổng tiền: "
+            style="@style/label"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/billTotal"
+            style="@style/label"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Thêm chi tiết phát sinh"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@color/colorAqua"
+        android:id="@+id/addBillDetail"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/saveBill"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textSize="16dp"
+        android:text="Lưu"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quản lý máy tính</string>
+    <string name="bill_name">Phiếu phát sinh</string>
+    <string name="bill_detail_name">Chi tiết phát sinh</string>
+    <string name="customer_name">Khách hàng</string>
+    <string name="service_name">Dịch vụ</string>
+    <string name="revenue_name">Doanh thu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

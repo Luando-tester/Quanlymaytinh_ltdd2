@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bill"
+            android:icon="@drawable/bill"
+            android:title="@string/bill_name" />
+        <item
+            android:id="@+id/customer"
+            android:icon="@drawable/customer"
+            android:title="@string/customer_name" />
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/service"
+            android:title="@string/service_name" />
+        <item
+            android:id="@+id/revenue"
+            android:icon="@drawable/revenue"
+            android:title="@string/revenue_name" />
+    </group>
+</menu>
